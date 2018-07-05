@@ -8,11 +8,6 @@
 
 import UIKit
 
-public let ScreenWidth = UIScreen.main.bounds.size.width
-public let ScreenHeight = UIScreen.main.bounds.size.height
-public let StatusBarHeight = UIApplication.shared.statusBarFrame.height
-public let NavigationBarHeight:CGFloat = 44.0
-
 class BaseViewController: UIViewController {
 
     override func viewDidLoad() {

@@ -29,6 +29,7 @@
 		D8FE1C0620EE53B40027A448 /* RecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE1C0520EE53B40027A448 /* RecommendModel.swift */; };
 		D8FE1C0820EE53BE0027A448 /* MineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE1C0720EE53BE0027A448 /* MineModel.swift */; };
 		D8FE1C0A20EE53C80027A448 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE1C0920EE53C80027A448 /* InformationModel.swift */; };
+		D8FE1C0D20EE5C6B0027A448 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE1C0C20EE5C6B0027A448 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		D8FE1C0520EE53B40027A448 /* RecommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendModel.swift; sourceTree = "<group>"; };
 		D8FE1C0720EE53BE0027A448 /* MineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineModel.swift; sourceTree = "<group>"; };
 		D8FE1C0920EE53C80027A448 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
+		D8FE1C0C20EE5C6B0027A448 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +304,7 @@
 				D8FE1BDD20EE4D0E0027A448 /* BaseViewController.swift */,
 				D8FE1BE120EE527A0027A448 /* MainTabBarViewController.swift */,
 				D8FE1BDF20EE4D690027A448 /* FirstViewController.swift */,
+				D8FE1C0C20EE5C6B0027A448 /* Constant.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 				D8FE1BB020EE4CCE0027A448 /* AppDelegate.swift in Sources */,
 				D8FE1BDE20EE4D0E0027A448 /* BaseViewController.swift in Sources */,
 				D8FE1BE020EE4D690027A448 /* FirstViewController.swift in Sources */,
+				D8FE1C0D20EE5C6B0027A448 /* Constant.swift in Sources */,
 				D8FE1C0620EE53B40027A448 /* RecommendModel.swift in Sources */,
 				D8FE1C0420EE53AA0027A448 /* HomeModel.swift in Sources */,
 				D8FE1C0220EE539D0027A448 /* InformationView.swift in Sources */,
