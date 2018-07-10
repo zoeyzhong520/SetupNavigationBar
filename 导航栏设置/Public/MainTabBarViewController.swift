@@ -22,25 +22,29 @@ class MainTabBarViewController: UITabBarController {
         let homeVC = HomeViewController()
         homeVC.title = "首页"
         homeVC.tabBarItem.title = "首页"
-        homeVC.tabBarItem.image = UIImage(named: "")?.withRenderingMode(.alwaysTemplate)
+        homeVC.tabBarItem.image = UIImage(named: "home")?.withRenderingMode(.alwaysTemplate)
+        homeVC.tabBarItem.selectedImage = UIImage(named: "home_selected")?.withRenderingMode(.alwaysTemplate)
         let homeNavVC = UINavigationController.init(rootViewController: homeVC)
         
         let recommendVC = RecommendViewController()
         recommendVC.title = "推荐"
         recommendVC.tabBarItem.title = "推荐"
-        recommendVC.tabBarItem.image = UIImage(named: "")?.withRenderingMode(.alwaysTemplate)
+        recommendVC.tabBarItem.image = UIImage(named: "buyCar")?.withRenderingMode(.alwaysTemplate)
+        recommendVC.tabBarItem.selectedImage = UIImage(named: "buyCar_selected")?.withRenderingMode(.alwaysTemplate)
         let recommendNavVC = UINavigationController.init(rootViewController: recommendVC)
         
         let informationVC = InformationViewController()
         informationVC.title = "资讯"
         informationVC.tabBarItem.title = "资讯"
-        informationVC.tabBarItem.image = UIImage(named: "")?.withRenderingMode(.alwaysTemplate)
+        informationVC.tabBarItem.image = UIImage(named: "sellCar")?.withRenderingMode(.alwaysTemplate)
+        informationVC.tabBarItem.selectedImage = UIImage(named: "sellCar_selected")?.withRenderingMode(.alwaysTemplate)
         let informationNavVC = UINavigationController.init(rootViewController: informationVC)
         
         let mineVC = MineViewController()
         mineVC.title = "我的"
         mineVC.tabBarItem.title = "我的"
-        mineVC.tabBarItem.image = UIImage(named: "")?.withRenderingMode(.alwaysTemplate)
+        mineVC.tabBarItem.image = UIImage(named: "mine")?.withRenderingMode(.alwaysTemplate)
+        mineVC.tabBarItem.selectedImage = UIImage(named: "mine_selected")?.withRenderingMode(.alwaysTemplate)
         let mineNavVC = UINavigationController.init(rootViewController: mineVC)
         
         self.tabBar.tintColor = .orange
